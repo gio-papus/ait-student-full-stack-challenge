@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import ImgProvider from "./Context/ImgProvider";
+import Provider from "./Context/Provider";
+import RoutesPath from "./Routes/RoutesPath";
+
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+ 
+    <Provider>
+    <ImgProvider>
+
+ <div className="w-screen h-screen bg-[#4B4949] overflow-auto scrollbar-hide" >
+      <div className="pr-[15%] pl-[15%] h-screen"> 
+<RoutesPath/>
+
+  </div>
+  </div> 
+    </ImgProvider>
+    </Provider> 
+      
+
   );
 }
 
