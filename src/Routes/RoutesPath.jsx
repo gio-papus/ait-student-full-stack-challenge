@@ -4,11 +4,11 @@ import MemesPage from '../Pages/MemesPage';
 import UploadPage from '../Pages/UploadPage';
 import ErrorPage from '../Pages/ErrorPage';
 import GifsPage from '../Pages/GifsPage';
-import ImgContext from '../Context/ImgContext';
-import EachImgPage from '../Pages/EachImgPage';
+// import ImgContext from '../Context/ImgContext';
+// import EachImgPage from '../Pages/EachImgPage';
 
 function RoutesPath() {
-  const { getImg } = useContext(ImgContext);
+  // const { getImg } = useContext(ImgContext);
 
 
   return (
