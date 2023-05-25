@@ -14,17 +14,18 @@ function RoutesPath() {
   return (
     <BrowserRouter>
       <Routes>
+      <Route path="/gifs/upload" element={<UploadPage />} />
         <Route path="/" element={<MemesPage />} />
         <Route path="/upload" element={<UploadPage />} />
         <Route path="/gifs" element={<GifsPage />} />
-        {getImg?.map((img) => (
+        {/* {getImg?.map((img) => (
           
           <Route
             key={img.id}
             path={`/gifs/${img.id}`}
             element={<EachImgPage img={img} />}
           />
-        ))}
+        ))} */}
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
