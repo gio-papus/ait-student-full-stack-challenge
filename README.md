@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+`#challenge` `#3d` `#tech-interview` `#master-in-software-development`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# AIT Student Full Stack Challenge <!-- omit in toc -->
 
-## Available Scripts
+> The objective of this technical challenge is to put into practice your ability to develop a functional project in a limited period of time.
+>
+> It will be taken into account how you have organized the folder structure, the code, prioritized tasks, documentation, ...
+>
+> It is advisable to use a language with which you already have experience since the final result of the delivery will be valued.
 
-In the project directory, you can run:
+## ⏳ Time for development
 
-### `npm start`
+You will have **3 days** from the delivery of the challenge to solve it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🎯 Objective
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The **project** to be **developed** for this **challenge** will be a **Memes and Gifs** web page in which **users** can **upload their files** and **share** it with **everyone**.
 
-### `npm test`
+Before you start, you will need to **choose which stack you want to prioritize**: the **frontend** stack or the **backend** stack. Keep in mind that **depending on the chosen stack** the **requirements** of this challenge will **change**.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧱 Project analysis
 
-### `npm run build`
+This section details **all the functionalities** of this challenge as a **full stack**. The main purpose is that **any user** can **visit** the web page and **share** the **content** uploaded by **registered users**.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Login** and **registration**
+- **Home page** that will show the **content uploaded** by users
+- **Main Navbar** that will include:
+  - **Content search bar**:
+    - You will have at least **three options** to filter the **main content**
+  - **Links** to the **main categories**
+  - **Information** of the **logged in user**
+    - If you are not logged in, the **button** to log in will be **displayed**
+- **Upload content page**
+  - If the user is logged in, a **multimedia resource** can be **uploaded** from a an **external link**
+- **Page** of the **selected multimedia** element:
+  - The **user can obtain the link** of the **multimedia resource** to include it on any **website**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎨 Requirements if you have prioritized <ins>frontend</ins>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- The **design** and **usability** of the website **will be valued**
+- You will have to create and deliver the wireframes of what your application will be like.
+- There will be no login or register pages
+- All actions on the page will be performed on the same user, who will already be logged in by default.
+- You will have to create your own **database** to **store** all the **information**
 
-### `npm run eject`
+## 🔐 Requirements if you have prioritized <ins>backend</ins>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- The **design will not be valued**, however the user must be able to navigate and perform all actions through the web.
+- You will have to create your own **database** to **store** all the **information**
+- You will have to **allow the user to register** and **log in**.
+- When logged in, all actions will be **associated** to the **logged in user**.
+- **Anyone can access the website** and **view** the **content** of other **users**, but only **previously registered** users **can upload multimedia content** associated to their account.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💯 Extra
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Use of **third-party API's**
+- Use of **third-party libraries**
+- The development of **additional features** to add more value to the **project** will be **valued positively**.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🧪 Dependencies
 
-## Learn More
+You can use the **dependencies** that you **consider necessary** for the **development** of the **challenge**.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔧 Technologies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can use the **technologies** that you **consider necessary** for the **development** of the **challenge**.
 
-### Code Splitting
+Keep in mind that the **final result** is **mainly valued**, so we **recommend** that you use **technologies** with which you have **previous experience developing**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🔚 Delivery
 
-### Analyzing the Bundle Size
+The **challenge** must be sent trough **the classroom link provided** and must contain the following content:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Project repository
