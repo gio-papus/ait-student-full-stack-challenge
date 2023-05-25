@@ -4,6 +4,9 @@ import Context from './Context'
 function Provider({children}) {
 
     const [handleImg,setHandleImg]=useState(false)
+    const[searchModal,setSearchModal]=useState(false)
+
+
     const open=()=>{
         setHandleImg(!handleImg)
     }

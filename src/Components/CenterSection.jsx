@@ -9,7 +9,7 @@ function CenterSection() {
 
   const {  handleImg } = useContext(Context);
   const { getImg } = useContext(ImgContext);
-  const[handleSearch,setHandleSearch]=useState("")
+
 
 const filteredImg = getImg?.filter((img) => img.rol === "meme");
 console.log(filteredImg)

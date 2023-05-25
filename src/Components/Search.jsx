@@ -9,9 +9,9 @@ function Search({_id,url,name}) {
      to={`/${_id}`} >
         <div className='flex flex-col h-fit bg-'>
 
-    <div className=" rounded   absolute right-[700px] top-[140px] cursor-pointer">
+    <div className=" rounded    cursor-pointer">
         <div className='flex flex-col'>
-            <img src={url} alt="nopicture" className='w-[60px] h-[60px] rounded' />
+            <img src={url} alt="nopicture" className=' rounded' />
      
             <p className='font-bold text-[1.3rem]'>{name}</p>
          
