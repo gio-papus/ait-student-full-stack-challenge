@@ -1,4 +1,4 @@
-import React, { useContext, useState} from "react";
+import React, { useContext} from "react";
 import ImgContext from "../Context/ImgContext";
 import MemesCard from "./Cards/MemesCard";
 import Context from "../Context/Context";
@@ -12,7 +12,7 @@ function CenterSection() {
 
 
 const filteredImg = getImg?.filter((img) => img.rol === "meme");
-console.log(filteredImg)
+
 const reverseFilteredMemes=filteredImg?.reverse()
   return (
     <>

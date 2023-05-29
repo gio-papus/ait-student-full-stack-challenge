@@ -9,7 +9,7 @@ import saitama from "../assets/img/saitama.png"
 
 function UploadPage() {
   const { rol, setRol, addName, setAddName, url, setUrl, addItem } = useContext(ImgContext);
-  console.log(rol);
+
 
   const handleNameChange = (e) => {
     setAddName(e.target.value);

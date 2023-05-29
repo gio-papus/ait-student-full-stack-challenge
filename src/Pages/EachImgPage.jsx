@@ -4,7 +4,7 @@ import ImgContext from '../Context/ImgContext';
 function EachImgPage({ imgId }) {
   const { getImg } = useContext(ImgContext);
    const img = getImg.find((img) => img.id === imgId);
-
+  
 
   return (
     <div>

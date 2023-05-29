@@ -30,7 +30,7 @@ useEffect(() => {
   img()  
 
 }, [])
-console.log(getImg)
+
 
 const addItem = async (e) => {
 

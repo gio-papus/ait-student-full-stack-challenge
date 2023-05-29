@@ -10,10 +10,13 @@ function Header() {
     const location=useLocation()
     const[searchValue,setSearchValue]=useState("")
     const [searchResults, setSearchResults] = useState([]);
-    const[searchModal,setSearchModal]=useState(false)
+    const[searchModal,setSearchModal]=useState(false) 
 
     const handleSearchModal=()=>{
-      setSearchModal(!searchModal)
+      // if(!searchValue.value ===""){ //preguntar feedback
+
+        setSearchModal(!searchModal)
+      // }
     }
   const handleSearch = (e) => {
     const value = e.target.value;
@@ -32,6 +35,7 @@ function Header() {
 
     return filteredResults;
   };
+
   return (
     <div className='flex justify-evenly border-bottom border-b-4 border-[#30FC0F]'>
         <img alt='' src={Logo} className=''/>
