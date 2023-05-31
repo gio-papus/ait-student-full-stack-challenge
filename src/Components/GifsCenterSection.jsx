@@ -5,10 +5,10 @@ import GifsCard from "./Cards/GifsCard";
 
 function GifsCenterSection() {
  
-
+const gif="gif"
   const { getImg } = useContext(ImgContext);
 
-  const filteredImgGifs = getImg?.filter((img) => img.rol === "gif");
+  const filteredImgGifs = getImg?.filter((img) => img.rol === gif);
   const reverseFilteredImgGifs=filteredImgGifs?.reverse()
   
   return (

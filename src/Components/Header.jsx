@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import Logo from "../assets/img/Logo.png"
 import Add from "../assets/img/Add.png"
 import { Link, useLocation } from 'react-router-dom'
@@ -11,13 +11,13 @@ function Header() {
     const[searchValue,setSearchValue]=useState("")
     const [searchResults, setSearchResults] = useState([]);
     const[searchModal,setSearchModal]=useState(false) 
-
-    const handleSearchModal=()=>{
-      // if(!searchValue.value ===""){ //preguntar feedback
-
-        setSearchModal(!searchModal)
-      // }
-    }
+    useEffect(() => {
+      handleSearchModal();
+    }, [searchValue]);
+  
+    const handleSearchModal = () => {
+      setSearchModal(searchValue !== "");
+    };
   const handleSearch = (e) => {
     const value = e.target.value;
     setSearchValue(value);
